@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn.metrics import confusion_matrix, plot_confusion_matrix, accuracy_score, f1_score, precision_score, recall_score, zero_one_loss, precision_recall_fscore_support
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, f1_score, precision_score, recall_score, zero_one_loss, precision_recall_fscore_support
 import torch
 from torch import nn
 

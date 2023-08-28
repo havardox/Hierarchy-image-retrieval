@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 import ete3
-from sklearn.metrics import confusion_matrix, plot_confusion_matrix, accuracy_score, f1_score, precision_score, recall_score, zero_one_loss, precision_recall_fscore_support
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, accuracy_score, f1_score, precision_score, recall_score, zero_one_loss, precision_recall_fscore_support
 
 def get_topk_accuracy(output, target, label_dict, ks=(1,3,5)):
     """Computes the accuracy over the k top predictions for the specified values of k"""
